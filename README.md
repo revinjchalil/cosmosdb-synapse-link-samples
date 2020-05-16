@@ -25,27 +25,27 @@ Taxonomies for products and languages: https://review.docs.microsoft.com/new-hop
 This Repo contains detailed Synapse Spark sample notebooks that shows end-to-end solutions using Azure Synapse Link for Azure Cosmos DB.
 
 ## Scenario 1 - Internet of Things (IoT)
-In this scenario, you will ingest streaming and batch IoT data using Azure Synapse Spark into Azure Cosmos DB, perform Joins and aggregations using Azure Synapse Link and perform Anomaly detection using MMLSpark.
+In this scenario, you will ingest streaming and batch IoT data into Azure Cosmos DB using Azure Synapse Spark, perform Joins and aggregations using Azure Synapse Link and perform Anomaly detection using Azure Cognitive Services on Spark (MMLSpark).
 
 There are four sample sample notebooks for the end-to-end IoT use case and they show how to
-* Ingest streaming data into Azure Cosmos DB collection using Azure Synapse Spark and Structured Streaming
-* Ingest Batch data into Azure Cosmos DB collection using Azure Synapse Spark
-* Perform Joins and aggregations across Azure Cosmos DB collections using Azure Synapse Link
-* Perform Anomaly Detection with Azure Synapse Link for Cosmos DB and MMLSpark
+* [Ingest streaming data into Azure Cosmos DB collection using Structured Streaming](IoT/spark-notebooks/pyspark/1CosmosDBSynapseLinkStreamIngestion.ipynb)
+* [Ingest Batch data into Azure Cosmos DB collection using Azure Synapse Spark](IoT/spark-notebooks/pyspark/2CosmosDBSynapseLinkBatchIngestion.ipynb)
+* [Perform Joins and aggregations across Azure Cosmos DB collections using Azure Synapse Link](IoT/spark-notebooks/pyspark/3CosmosDBSynapseLinkJoins.ipynb)
+* [Perform Anomaly Detection using Azure Synapse Link and Azure Cognitive Services on Synapse Spark (MMLSpark)](IoT/spark-notebooks/pyspark/4CosmosDBSynapseLinkML.ipynb)
 
 ![IoT-components-dataflow](IoT/images/IoT-components-dataflow.PNG)
 
 
 ## Prerequisites
-* Azure Cosmos DB account with Azure Synapse Link featured enabled
-* Two Azure Cosmos DB analytical store enabled collections 
+* Azure Cosmos DB account with Azure Synapse Link feature enabled
+* Two Azure Cosmos DB analytical store enabled collections under a Cosmos DB database
 * Azure Synapse workspace configured with a Spark pool
 * Linked Service on Azure Synapse studio with the connection details to the Azure Cosmos DB Database 
 
 ## Setup
-* Import the four "ipynb" spark notebooks under the "IoT/spark-notebooks/pyspark/" on to the Synapse workspace
+* Import the four "ipynb" spark notebooks under the "IoT/spark-notebooks/pyspark/" dir on to the Synapse workspace
 
-## Running the sample
+## Running the notebooks
 * Attach the Spark pool created in the prerequisite to the spark notebook
 * Execute the notebook
 
