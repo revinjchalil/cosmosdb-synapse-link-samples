@@ -8,7 +8,7 @@ products:
 - Azure Cosmos DB
 - Azure Synapse Link
 - MMLSpark
-description: "Sample Synapse pySpark notebooks with end-to-end IoT and Retail solutions"
+description: "Sample Azure Cosmos DB - Synapse Link notebooks "
 urlFragment: "cosmosdb-synapse-link-samples"
 ---
 
