@@ -22,14 +22,14 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-This Repo contains detailed Synapse Spark sample notebooks that shows end-to-end solutions using Azure Synapse Link for Azure Cosmos DB.
+This Repo contains detailed Spark sample notebooks on Azure Synapse Analytics that shows end-to-end solutions using Azure Synapse Link for Azure Cosmos DB.
 
 ## Scenario 1 - Internet of Things (IoT)
-In this scenario, you will ingest streaming and batch IoT data into Azure Cosmos DB using Azure Synapse Spark, perform Joins and aggregations using Azure Synapse Link and perform Anomaly detection using Azure Cognitive Services on Spark (MMLSpark).
+In this scenario, you will ingest streaming and batch IoT data into Azure Cosmos DB using Synapse Spark, perform Joins and aggregations using Azure Synapse Link and perform Anomaly detection using Azure Cognitive Services on Spark (MMLSpark).
 
 There are four sample sample notebooks for the end-to-end IoT use case and they show how to
 1. [Ingest streaming data into Azure Cosmos DB collection using Structured Streaming](IoT/spark-notebooks/pyspark/1CosmosDBSynapseLinkStreamIngestion.ipynb)
-2. [Ingest Batch data into Azure Cosmos DB collection using Azure Synapse Spark](IoT/spark-notebooks/pyspark/2CosmosDBSynapseLinkBatchIngestion.ipynb)
+2. [Ingest Batch data into Azure Cosmos DB collection using Synapse Spark](IoT/spark-notebooks/pyspark/2CosmosDBSynapseLinkBatchIngestion.ipynb)
 3. [Perform Joins and aggregations across Azure Cosmos DB collections using Azure Synapse Link](IoT/spark-notebooks/pyspark/3CosmosDBSynapseLinkJoins.ipynb)
 4. [Perform Anomaly Detection using Azure Synapse Link and Azure Cognitive Services on Synapse Spark (MMLSpark)](IoT/spark-notebooks/pyspark/4CosmosDBSynapseLinkML.ipynb)
 
