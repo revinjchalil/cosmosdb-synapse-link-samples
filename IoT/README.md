@@ -8,7 +8,7 @@ Please make sure that you followed the pre-reqs of the main [README](../README.m
     a. IoTSignals.csv
     b. IoTDeviceInfo.csv
 
-![update_datasets](/images/upload_datasets.png)
+![upload_datasets](images/upload_datasets.png)
 
 * Note: IoTSignals.csv has the sample data generated through the [01-CosmosDBSynapseStreamIngestion] (IoT/spark-notebooks/pyspark/01-CosmosDBSynapseStreamIngestion.ipynb) notebook. You can either use the data present in the IoTSignals.csv file or generate your own data using the 01-CosmosDBSynapseStreamIngestion notebook.
 
